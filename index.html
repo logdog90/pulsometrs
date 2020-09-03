@@ -10,7 +10,7 @@
 </head>
 <body>
     <page class="page">
-        <div class="promo">
+        <section class="promo">
             <header class="header">
                 <div class="container">
                     <div class="header__wrapper">
@@ -50,9 +50,9 @@
                     </div>
                 </div>
             </header>
-        </div>
+        </section>
         <main class="main">
-            <div class="benefits">
+            <section class="benefits">
                 <div class="container">
                     <h3 class="title">НАШИ ПРЕИМУЩЕСТВА</h3>
                     <div class="benefits__inner">
@@ -73,13 +73,27 @@
                             <div class="title-header title-header--center">Учим бегать</div>
                             <p class="title-footer title-footer--center">Помогаем с обучением 
                                 правильной технике бега! 
-                                Дружим с крупнейшей школой бега в России - I LOVE RUNNING.
+                                Дружим с крупнейшей школой бега в России - <span>I LOVE RUNNING.</span>
                                 </p>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             
+            <section class="consultation">
+                <div class="container">
+                    <div class="consultation__wrapper">
+                        <h3 class="title title--left">Получите бесплатную консультацию по подбору пульсометра </h3>
+                        <div class="consultation__text">Просто заполните форму заявки<br>и мы перезвоним вам в течении 10 минут</div>
+                        <form class="feed-form consultation__feed-form" action="#">
+                            <input type="text" name="name" required placeholder="Ваше имя">
+                            <input type="text" name="phone" required placeholder="Ваш телефон">
+                            <input type="text" name="email" required placeholder="Ваш E-mail">
+                            <button class="button button--submit">Заказать консультацию</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer class="footer">
             <div class="container"></div>
